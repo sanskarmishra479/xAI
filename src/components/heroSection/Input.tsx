@@ -1,4 +1,5 @@
-import { UpArrow } from "../icons/TopArrow"
+import { UpArrow } from "../../icons/TopArrow"
+
 
 export const Input = () => {
     return(

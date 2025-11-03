@@ -1,5 +1,5 @@
-import { DownArrow } from "../icons/DwonArrow";
-import { Button } from "./Button";
+import { DownArrow } from "../../icons/DwonArrow";
+import { Button } from "../Button";
 
 export const FottorHero = () => {
   return (

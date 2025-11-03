@@ -1,6 +1,10 @@
-export const Xai = () => {
+interface xaiProps {
+  textColor?: string;
+}
+export const Xai = (xaiProps: xaiProps) => {
   return (
     <svg
+    className="text-black"
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
@@ -9,7 +13,7 @@ export const Xai = () => {
       viewBox="0,0,256,256"
     >
       <g
-        fill="#fdfdfd"
+        fill={xaiProps.textColor || "#fdfdfd"}
         fill-rule="evenodd"
         stroke="none"
         stroke-width="1"
