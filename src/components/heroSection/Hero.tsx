@@ -8,7 +8,7 @@ import { Input } from "./Input"
 export const Hero = () => {
     return(
         <>
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center h-screen">
             <Background />
             <Navbar />
             <div className="absolute top-0 h-full w-[95%] xl:w-[82%]">
