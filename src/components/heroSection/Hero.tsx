@@ -10,8 +10,8 @@ export const Hero = () => {
         <>
         <div className="relative flex justify-center">
             <Background />
-            <div className="absolute top-0 h-full w-[82%]">
-                    <Navbar />
+            <Navbar />
+            <div className="absolute top-0 h-full w-[95%] xl:w-[82%]">
                     <Input />
                     <FottorHero />
             </div>
