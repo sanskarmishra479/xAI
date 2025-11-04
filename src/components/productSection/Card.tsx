@@ -16,7 +16,7 @@ export const Card = (cardType:cardType) => {
             <h1 className="text-[18px] font-medium text-white mb-4">{cardType.heading}</h1>
             <h1 className="text-[16px] text-white/50 group-hover:text-white">{cardType.discription}</h1>
             </div>
-            <div className="absolute -bottom-46 w-full h-full flex items-center justify-center">
+            <div className="absolute -bottom-26 md:-bottom-46 w-full h-full flex items-center justify-center">
             {cardType.icon ? <cardType.icon /> : null}
             </div>
             <div className="absolute h-50 w-full bottom-0 bg-black mask-alpha mask-t-from-12%"></div>

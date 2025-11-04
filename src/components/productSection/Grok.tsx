@@ -4,7 +4,7 @@ export const Grok = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 500 500"
-        className="w-150 h-150 stroke-white/20 group-hover:stroke-white/40 stroke-[0.1] fill-transparent group-hover:scale-110 transition-all duration-150"
+        className="w-120 h-120 md:w-150 md:h-150 stroke-white/20 group-hover:stroke-white/40 stroke-[0.1] fill-transparent group-hover:scale-110 transition-all duration-150"
       >
         <g transform="matrix(9.402136,0,0,9.402136,-3631.385064,-2505.47367)">
           <g transform="matrix(1,0,0,1,-4.898226,-4.898211)">
