@@ -8,7 +8,7 @@ export const Product = () => {
     <div className="flex items-center justify-center">
       <div className="flex-col items-center justify-center h-auto w-[95%] xl:w-[82%] border-t border-white/10">
         <div className="h-80 w-full flex items-center">
-          <div className="">
+          <div className="pl-4">
           <h1 className="text-[14px] font-normal text-white/40 font-[Geist_Mono] tracking-widest mb-10">[ PRODUCT ]</h1>
           <h1 className="text-[28px] md:text-[38px] lg:text-[48px] font-normal tracking-tight text-white font-[Roboto]">AI for all humanity</h1>
           </div>
